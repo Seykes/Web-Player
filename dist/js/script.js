@@ -1,5 +1,4 @@
-let dropZone = document.q
-uerySelector("div"),
+let dropZone = document.querySelector("div"),
   input = document.querySelector("input"),
   file,
   text,
@@ -7,6 +6,9 @@ uerySelector("div"),
   volume,
   audio,
   frequencyArray;
+
+console.log(dropZone);
+
 
 dropZone.ondrop = (e) => {
   e.preventDefault();
